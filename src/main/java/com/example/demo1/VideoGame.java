@@ -1,6 +1,6 @@
 package com.example.demo1;
 
-public class videoGames
+public class VideoGame
 {
     private String gameCompany;
     private String gameName;
@@ -8,11 +8,11 @@ public class videoGames
     private double gameRating;
     private double gamePrice;
 
-    public videoGames(String gameCompany, String gameName, String gameGenre, double gameRating, double gamePrice)
+    public VideoGame(String gameCompany, String gameName, String gameGenre, double gameRating, double gamePrice)
     {
         this.setGameCompany(gameCompany);
         this.setGameName(gameName);
-        this.setgameGenre(gameGenre);
+        this.setGameGenre(gameGenre);
         this.setGameRating(gameRating);
         this.setGamePrice(gamePrice);
     }
@@ -37,12 +37,12 @@ public class videoGames
         this.gameName = gameName;
     }
 
-    public String getgameGenre()
+    public String getGameGenre()
     {
         return gameGenre;
     }
 
-    public void setgameGenre(String gameReleaseYear)
+    public void setGameGenre(String gameReleaseYear)
     {
         this.gameGenre = gameReleaseYear;
     }
